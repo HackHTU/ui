@@ -6,10 +6,10 @@
         </div>
 
         <input
+            v-model="inputValue"
             type="text"
             class="placeholder:text-secondary grow text-right text-sm outline-none"
-            placeholder="Enter text..."
-            v-model="inputValue" />
+            placeholder="Enter text..." />
     </div>
 </template>
 

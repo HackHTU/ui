@@ -5,12 +5,12 @@ let isOpen = ref(false);
 </script>
 <template>
     <div
-        @click="isOpen = !isOpen"
-        class="border-secondary m-1 flex w-100 max-w-full flex-col gap-3 rounded-3xl border-2 p-5 shadow-lg">
+        class="border-secondary m-1 flex w-100 max-w-full flex-col gap-3 rounded-3xl border-2 p-5 shadow-lg"
+        @click="isOpen = !isOpen">
         <div
             class="flex w-full cursor-pointer items-center justify-between select-none">
-            <span class="text-xl font-semibold" v-if="!isOpen">Disclosure</span>
-            <span class="text-xl font-semibold" v-else>Closure</span>
+            <span v-if="!isOpen" class="text-xl font-semibold">Disclosure</span>
+            <span v-else class="text-xl font-semibold">Closure</span>
             <div class="size-6">
                 <svg
                     v-if="!isOpen"
@@ -40,11 +40,10 @@ let isOpen = ref(false);
         </div>
 
         <div
-            class="mt-2 flex max-w-full flex-col items-start gap-3"
-            v-if="isOpen">
+            v-if="isOpen"
+            class="mt-2 flex max-w-full flex-col items-start gap-3">
+            <hr class="border-primary my-2 w-full" />
 
-            <hr class="my-2 border-primary w-full" />
-            
             <p class="text-2xl font-bold">Title</p>
             <p class="text-lg">Content</p>
         </div>

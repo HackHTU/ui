@@ -45,7 +45,8 @@ export const components: componentGroup[] = [
         components: [
             {
                 name: 'CodeBlock',
-                description: '用于显示代码块的组件，支持复制和语法高亮。您需要首先安装 hightlight.js (npm i highlight.js)。',
+                description:
+                    '用于显示代码块的组件，支持复制和语法高亮。您需要首先安装 hightlight.js (npm i highlight.js)。',
                 code: CodeBlockCode,
                 view: defineAsyncComponent(
                     () => import('./Display/CodeBlock.vue')

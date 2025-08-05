@@ -20,9 +20,9 @@
         <div class="absolute top-3 right-3 size-8">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
-                @click="isOpen = false"
                 fill="none"
-                viewBox="0 0 35 35">
+                viewBox="0 0 35 35"
+                @click="isOpen = false">
                 <path
                     fill="currentColor"
                     d="M11 26.8 9.2 25l7-7-7-7L11 9.2l7 7 7-7 1.8 1.8-7 7 7 7-1.8 1.8-7-7-7 7Z" />

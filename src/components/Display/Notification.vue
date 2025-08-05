@@ -1,6 +1,6 @@
 <template>
     <div
-        class="relative m-1 flex min-h-32 min-w-52 justify-end rounded-xl bg-yellow-200 dark:bg-yellow-900 dark:text-background p-2 shadow-lg">
+        class="dark:text-background relative m-1 flex min-h-32 min-w-52 justify-end rounded-xl bg-yellow-200 p-2 shadow-lg dark:bg-yellow-900">
         <div class="absolute top-5 left-5 size-14 text-yellow-500">
             <svg
                 viewBox="0 0 48 48"
@@ -25,7 +25,7 @@
     </div>
 
     <div
-        class="relative m-1 flex min-h-32 min-w-52 justify-end rounded-xl bg-red-200 dark:text-background dark:bg-red-900 p-2 shadow-lg">
+        class="dark:text-background relative m-1 flex min-h-32 min-w-52 justify-end rounded-xl bg-red-200 p-2 shadow-lg dark:bg-red-900">
         <div class="absolute top-5 left-5 size-14 text-red-500">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@
     </div>
 
     <div
-        class="relative m-1 flex min-h-32 min-w-52 justify-end rounded-xl bg-blue-200 dark:bg-blue-900 dark:text-background p-2 shadow-lg">
+        class="dark:text-background relative m-1 flex min-h-32 min-w-52 justify-end rounded-xl bg-blue-200 p-2 shadow-lg dark:bg-blue-900">
         <div class="absolute top-5 left-5 size-14 text-blue-500">
             <svg
                 xmlns="http://www.w3.org/2000/svg"

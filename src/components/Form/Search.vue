@@ -1,11 +1,11 @@
 <template>
     <div
-        class="border-primary relative m-3 min-w-80 rounded-xl border px-2 py-2 bg-secondary">
+        class="border-primary bg-secondary relative m-3 min-w-80 rounded-xl border px-2 py-2">
         <input
+            v-model="inputValue"
             type="text"
             class="placeholder:text-primary w-full pr-6 pl-2 text-sm outline-none placeholder:font-bold"
-            placeholder="Search..."
-            v-model="inputValue" />
+            placeholder="Search..." />
 
         <div class="absolute top-3 right-3 size-4 cursor-pointer">
             <svg

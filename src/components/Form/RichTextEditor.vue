@@ -128,8 +128,8 @@
         <div class="flex w-full items-center gap-2">
             <textarea
                 ref="input"
-                class="bg-background h-10 w-full resize-none rounded-xl border-1 pt-2 pl-2 outline-none [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
-                v-model="inputValue">
+                v-model="inputValue"
+                class="bg-background h-10 w-full resize-none rounded-xl border-1 pt-2 pl-2 outline-none [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             </textarea>
             <!-- Send -->
             <div

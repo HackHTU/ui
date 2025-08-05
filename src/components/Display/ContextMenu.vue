@@ -21,9 +21,9 @@ onUnmounted(() => {
 });
 </script>
 <template>
-    <div class="relative inline-block text-left" ref="menuRef">
+    <div ref="menuRef" class="relative inline-block text-left">
         <button
-            class="border-primary flex bg-background items-center gap-2 rounded-xl border-2 px-4 py-1 outline-none"
+            class="border-primary bg-background flex items-center gap-2 rounded-xl border-2 px-4 py-1 outline-none"
             @click="open = !open">
             Menu
             <svg
@@ -44,12 +44,12 @@ onUnmounted(() => {
             v-if="open"
             class="shadow-3xl bg-background absolute mt-2 w-fit space-y-2 rounded-xl border border-gray-200 p-3 shadow-lg">
             <button
-                class="hover:invert-25 bg-background w-full rounded-3xl px-3 py-1 text-nowrap"
+                class="bg-background w-full rounded-3xl px-3 py-1 text-nowrap hover:invert-25"
                 @click="open = false">
                 Button 1
             </button>
             <button
-                class="hover:invert-25 bg-background w-full rounded-3xl px-3 py-1 text-nowrap"
+                class="bg-background w-full rounded-3xl px-3 py-1 text-nowrap hover:invert-25"
                 @click="open = false">
                 Button 2
             </button>
@@ -57,7 +57,7 @@ onUnmounted(() => {
             <hr class="border-gray-200" />
 
             <button
-                class="hover:invert-25 bg-background w-full rounded-3xl px-3 py-1 text-nowrap"
+                class="bg-background w-full rounded-3xl px-3 py-1 text-nowrap hover:invert-25"
                 @click="open = false">
                 Button 3
             </button>

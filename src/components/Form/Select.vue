@@ -3,8 +3,8 @@
         <div
             v-for="option in options"
             :key="option.title"
-            @click="selectOption(option)"
-            class="border-primary flex cursor-pointer items-start rounded-xl border px-4 py-3 shadow-md">
+            class="border-primary flex cursor-pointer items-start rounded-xl border px-4 py-3 shadow-md"
+            @click="selectOption(option)">
             <span
                 class="relative mr-2 flex h-8 w-8 items-center justify-center">
                 <svg
