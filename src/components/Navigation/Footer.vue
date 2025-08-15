@@ -1,6 +1,6 @@
 <template>
-    <div
-        class="bg-primary dark:text-primary text-background flex w-full max-w-dvw items-start justify-between gap-5 rounded-3xl p-6 dark:bg-neutral-800">
+    <footer
+        class="bg-primary dark:text-primary text-background flex w-full max-w-dvw items-start justify-between gap-5 rounded-bl-3xl rounded-br-3xl px-6 pt-6 pb-10 select-none dark:bg-neutral-800">
         <div class="flex flex-col items-start gap-1.5">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,7 @@
             >
         </div>
 
-        <div class="flex flex-wrap gap-5">
+        <div class="flex flex-wrap gap-10">
             <ul class="space-y-1">
                 <li class="text-lg font-bold">产品</li>
                 <li>NekoEVAL</li>
@@ -39,8 +39,8 @@
                 <li>Telegram 群组</li>
                 <li>Discord 服务器</li>
                 <li>Github 团队</li>
-                <li>邮箱</li>
+                <li>Email 邮箱</li>
             </ul>
         </div>
-    </div>
+    </footer>
 </template>

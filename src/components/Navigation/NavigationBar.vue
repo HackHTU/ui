@@ -1,6 +1,6 @@
 <template>
     <div
-        class="text-background dark:text-primary flex w-[80dvw] max-w-full items-center justify-between rounded-2xl border border-neutral-300 bg-neutral-900">
+        class="text-background dark:text-primary mx-2 flex w-200 max-w-full items-center justify-between rounded-2xl border border-neutral-300 bg-neutral-900 text-nowrap select-none">
         <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-14 w-20"

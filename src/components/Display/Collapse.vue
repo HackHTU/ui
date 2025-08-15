@@ -45,7 +45,7 @@ let isOpen = ref(false);
             <hr class="border-primary my-2 w-full" />
 
             <p class="text-2xl font-bold">Title</p>
-            <p class="text-lg">Content</p>
+            <p class="text-lg whitespace-pre-line">Content</p>
         </div>
     </div>
 </template>
